@@ -1,41 +1,129 @@
+header {
+  line-height: 0.4;
+  letter-spacing:2px;
+  text-align: center;
+  width: 30%;
+  background-color: rgb(226, 243, 226);
+  border-bottom: 5px solid black;
+  color: black;
+  padding: 5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  min-height: 195px;
+  min-width: 300px;
+}
+
+img {
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+#navigation {
+  font-size: 15px;
+}
+
+a {
+  color: #000;
+}
+
+.container {
+  background-color: rgb(226, 243, 226);
+  display:flexbox;
+  flex-direction:column;
+  height: 1500px;
+}
 
 
-  header {
-    background-color: rgb(87, 87, 191);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 4%;
-    text-align: center;
-    margin-bottom: -3%;
-  }
-  
-  img {
-    border-radius: 50%;
-    border-color: rgb(146, 108, 108);
-    border: 4px solid;
-    margin: auto;
-    height: 150px;
-    width: 150px;
-  }
 
-  article {
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 8%;
-    margin-top: -5%;
-  }
+#intro_statement {
+  background-color: rgb(226, 243, 226);
+  flex-direction: column;
+  justify-content: center;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  float:right;
+  min-width: 24px;
+  min-height: 195px;
+  width: 52%;
+  height: 150px;
+  padding: 1%;
+  margin-top: -32%;
+}
 
-  #edit_this_aside {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    display: inline-block;
-    color: white;
-    padding: 3%;
-  }
-  
-  a {
-    color: white;
-  }
+#contacts {
+  background-color: grey;
+  border-radius: 12px 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-top: 30px ;
+  margin-bottom: 30px;
+  min-height: 75px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 2%;
+  font-weight: lighter;
+}
 
-  section {
-    background-color: rgb(222, 221, 221);
-  }
+#skills {
+  background-color: grey;
+  border-radius: 12px 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 30px;
+  min-height: 155px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#tools {
+  background-color: grey;
+  border-radius: 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 30px;
+  min-height: 85px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#experience {
+  background-color: rgb(226, 243, 226);
+  border-left: 5px solid black;
+  margin-top: -67%;
+  float: right;
+  line-height: 1.5;
+  width: 50%;
+  height: 900px;
+  min-height: 85px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#education {
+  background-color: gray;
+  line-height: 1.5;
+  margin-top: 30px;
+  width: 90%;
+  height: 190px;
+  min-height: 85px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 2%;
+  font-weight: lighter;
+  margin-bottom: auto;
+}
