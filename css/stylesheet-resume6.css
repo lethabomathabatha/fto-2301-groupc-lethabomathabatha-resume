@@ -1,9 +1,9 @@
 .container {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: rgba(230, 255, 235, 0.715);
+  background-color: rgba(197, 197, 197, 0.07);
   display:flexbox;
   flex-direction:column;
-  height: 1500px;
+  height: 1600px;
   justify-content:end;
 }
 
@@ -12,11 +12,10 @@ header {
   letter-spacing:1px;
   text-align: center;
   width: 30%;
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid black;
   color: black;
   padding: 5%;
-  min-height: 195px;
-  min-width: 300px;
+  margin-top: -3%;
 }
 
 img {
@@ -26,7 +25,10 @@ img {
   height: 180px;
 }
 
+.navigation {
+  position: relative;
 
+  }
 
 a {
   color: #000;
@@ -48,65 +50,63 @@ a {
 #intro_statement {
   flex-direction: column;
   justify-content: center;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
   float:right;
-  min-width: 24px;
-  min-height: 195px;
   width: 52%;
-  height: 150px;
+  height: 155px;
   padding: 1%;
-  margin-top: -32%;
+  margin-top: -30%;
 }
 
 #contacts {
-  background-color: grey;
+  background-color: rgba(200, 200, 200, 0.456);
   border-radius: 12px 12px 12px 12px;
   line-height: 0.5;
   width: 36%;
-  margin-top: 30px ;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   min-height: 75px;
   min-width: 300px;
 
   font-size: 15px; 
-  color: azure; 
+  color: black; 
   padding: 2%;
   font-weight: lighter;
 }
 
 #skills {
-  background-color: grey;
+  background-color: rgba(200, 200, 200, 0.456);
   border-radius: 12px 12px 12px 12px;
   line-height: 0.5;
   width: 36%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   min-height: 155px;
   min-width: 300px;
 
   font-size: 15px; 
-  color: azure; 
+  color: black; 
   padding: 2%;
   font-weight: lighter;
 }
 
 #tools {
-  background-color: grey;
+  background-color: rgba(200, 200, 200, 0.456);
   border-radius: 12px 12px 12px;
   line-height: 0.5;
   width: 36%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   min-height: 85px;
   min-width: 300px;
  
   font-size: 15px; 
-  color: azure; 
+  color: black; 
   padding: 2%;
   font-weight: lighter;
 }
 
 #experience {
-  border-left: 5px solid black;
+  border-left: 3px solid black;
   margin-top: -67%;
   float: right;
   line-height: 1.5;
@@ -121,18 +121,18 @@ a {
 }
 
 #education {
-  background-color: gray;
+  background-color: rgba(200, 200, 200, 0.456);
   line-height: 1.5;
-  margin-top: 30px;
+  margin-top: 20px;
 
   border-radius: 12px 12px 12px;
   width: 96%;
-  height: 190px;
-  min-height: 85px;
+  height: 170px;
+  min-height: 80px;
   min-width: 300px;
   
   font-size: 15px; 
-  color: azure; 
+  color: black; 
   padding: 2%;
   font-weight: lighter;
   margin-bottom: auto;
@@ -141,5 +141,6 @@ a {
 #education2 {
   float: right;
   width: 50%;
-  margin-top: -11%;
+  margin-top: -10%;
+  color: black;
 }
