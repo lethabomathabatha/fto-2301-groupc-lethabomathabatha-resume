@@ -1,13 +1,20 @@
+.container {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(230, 255, 235, 0.715);
+  display:flexbox;
+  flex-direction:column;
+  height: 1500px;
+  justify-content:end;
+}
+
 header {
   line-height: 0.4;
-  letter-spacing:2px;
+  letter-spacing:1px;
   text-align: center;
   width: 30%;
-  background-color: rgb(226, 243, 226);
   border-bottom: 5px solid black;
   color: black;
   padding: 5%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   min-height: 195px;
   min-width: 300px;
 }
@@ -15,27 +22,30 @@ header {
 img {
   border-radius: 50%;
   border: 4px solid black;
+  width: 180px; 
+  height: 180px;
 }
 
-#navigation {
-  font-size: 15px;
-}
+
 
 a {
   color: #000;
 }
 
-.container {
-  background-color: rgb(226, 243, 226);
-  display:flexbox;
-  flex-direction:column;
-  height: 1500px;
+
+
+#headings {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
 }
 
-
+#details {
+  font-size: 15px;
+  color: black;
+}
 
 #intro_statement {
-  background-color: rgb(226, 243, 226);
   flex-direction: column;
   justify-content: center;
   border-top: 5px solid black;
@@ -58,7 +68,7 @@ a {
   margin-bottom: 30px;
   min-height: 75px;
   min-width: 300px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+
   font-size: 15px; 
   color: azure; 
   padding: 2%;
@@ -73,7 +83,7 @@ a {
   margin-bottom: 30px;
   min-height: 155px;
   min-width: 300px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+
   font-size: 15px; 
   color: azure; 
   padding: 2%;
@@ -88,7 +98,7 @@ a {
   margin-bottom: 30px;
   min-height: 85px;
   min-width: 300px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+ 
   font-size: 15px; 
   color: azure; 
   padding: 2%;
@@ -96,7 +106,6 @@ a {
 }
 
 #experience {
-  background-color: rgb(226, 243, 226);
   border-left: 5px solid black;
   margin-top: -67%;
   float: right;
@@ -105,7 +114,6 @@ a {
   height: 900px;
   min-height: 85px;
   min-width: 300px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; 
   color: black; 
   padding: 2%;
@@ -116,14 +124,22 @@ a {
   background-color: gray;
   line-height: 1.5;
   margin-top: 30px;
-  width: 90%;
+
+  border-radius: 12px 12px 12px;
+  width: 96%;
   height: 190px;
   min-height: 85px;
   min-width: 300px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  
   font-size: 15px; 
   color: azure; 
   padding: 2%;
   font-weight: lighter;
   margin-bottom: auto;
+}
+
+#education2 {
+  float: right;
+  width: 50%;
+  margin-top: -11%;
 }
