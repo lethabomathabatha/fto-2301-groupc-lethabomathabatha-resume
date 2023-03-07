@@ -1,0 +1,132 @@
+.container {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(197, 197, 197, 0.07);
+  display:flexbox;
+  flex-direction:column;
+  height: 1600px;
+  justify-content:end;
+  gap: 70px;
+}
+
+header {
+  line-height: 0.4;
+  letter-spacing:1px;
+  text-align: center;
+  width: 30%;
+  border-bottom: 3px solid black;
+  color: black;
+  padding: 5%;
+  margin-top: -3%;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 180px; 
+  height: 180px;
+}
+
+#navigation {
+  position:fixed;
+  margin-left: 5.5%;
+  }
+
+a {
+  color: #000;
+}
+
+#headings {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#details {
+  font-size: 15px;
+  color: black;
+}
+
+#intro_statement {
+  flex-direction: column;
+  justify-content: center;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  float:right;
+  width: 52%;
+  height: 155px;
+  padding: 1%;
+  margin-top: -28%;
+  font-size: 20px;
+}
+
+#contacts {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#skills {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#tools {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#experience {
+  border-left: 3px solid black;
+  margin-top: -65%;
+  float: right;
+  line-height: 1.5;
+  width: 50%;
+  height: 900px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#education {
+  background-color: rgba(200, 200, 200, 0.456);
+  line-height: 1.5;
+  margin-top: 20px;
+  border-radius: 12px 12px 12px;
+  width: 96%;
+  height: 170px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+  margin-bottom: auto;
+}
+
+#education2 {
+  float: right;
+  width: 50%;
+  margin-top: -10%;
+  color: black;
+}
+
