@@ -27,8 +27,10 @@ img {
 }
 
 #navigation {
-  position:fixed;
+  position:;
   margin-left: 5.5%;
+  top: 0;
+
   }
 
 a {
@@ -113,7 +115,7 @@ a {
   background-color: rgba(200, 200, 200, 0.456);
   line-height: 1.5;
   margin-top: 20px;
-  border-radius: 12px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
   width: 96%;
   height: 170px;
   font-size: 15px; 
@@ -130,17 +132,16 @@ a {
   color: black;
 }
 
-#form {
-  color: coral;
-  background-color: rgba(200, 200, 200, 0.456);
-  line-height: 1.5;
+#forms {
+  color: white;
+  border: black solid 3px;
   margin-top: 20px;
-  border-radius: 12px 12px 12px;
-  width: 96%;
-  height: 170px;
-  font-size: 15px; 
-  color: black; 
+  border-radius: 12px 12px 12px 12px;
   padding: 2%;
-  font-weight: lighter;
-  margin-bottom: auto;
+  background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
+}
+
+#submit {
+  background-color: rgba(162, 220, 237, 0.801);
+  color: black;
 }
