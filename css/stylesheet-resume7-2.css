@@ -1,20 +1,23 @@
+
+
+
 .container {
   font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: rgba(197, 197, 197, 0.07);
   display:flexbox;
   flex-wrap: wrap;
-
   height: 2000px;
   justify-content:end;
-  gap: 70px;
 }
 
 .background {
-  background-image: url(./background.png);
-  background-size: contain;
+  background-image: url(/images/background-image.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 1500px;
+  height: 100vh;
+
+
 }
 
 header {
@@ -22,23 +25,23 @@ header {
   min-width: 300px;
   line-height: 0.4;
   letter-spacing:1px;
-  text-align: center;
-  width: 30%;
-  border-bottom: 3px solid black;
   color: black;
-  padding: 5%;
-  margin-top: -3%;
+  padding-bottom: 20px;
 }
 
 img {
   border: 3px solid black;
   width: 180px; 
   height: auto;
+  margin-left: 7.5%;
 }
  
+.title {
+  margin-left: 7.5%;
+}
 
 #navigation {
-  margin-left: 5.5%;
+  margin-left: 7.5%;
   top: 0;
   }
 
@@ -46,31 +49,19 @@ a {
   color: #000;
 }
 
-#headings {
-  font-size: 20px; 
-  color: rgba(58, 185, 221, 0.801); 
-  font-weight: bold;
-}
-
-#details {
-  font-size: 15px;
-  color: black;
-}
-
-#intro_statement {
+.container .intro-statement {
   flex: 2;
-
+  display: inline-block;
   justify-content: center;
-  border-top: 3px solid black;
+
   border-bottom: 3px solid black;
   float:right;
   width: 52%;
   height: 165px;
-  min-width: 165px;
- 
+  min-width: 180px;
   padding: 1%;
   margin-top: -27%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #contacts {
@@ -142,6 +133,69 @@ a {
   float: right;
   width: 50%;
   margin-top: -10%;
+  color: black;
+}
+
+#headings {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+
+#headings1 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings2 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings3 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings4 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings5 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings6 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#details1 {
+  font-size: 15px;
+  color: black;
+}
+
+#details2 {
+  font-size: 15px;
+  color: black;
+}
+
+#details3 {
+  font-size: 15px;
+  color: black;
+}
+
+#details4 {
+  font-size: 15px;
   color: black;
 }
 
