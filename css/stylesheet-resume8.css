@@ -1,0 +1,217 @@
+.full-page {
+  background-color: rgba(213, 225, 229, 0.516);
+}
+
+.grid-container {
+
+  display: grid;
+  grid-template-columns: 500px 970px;
+  grid-gap: 20px;
+}
+
+.background {
+  background-image: url(/images/background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1500px;
+  height: 100vh;
+}
+
+img {
+  border: 3px solid black;
+  width: 180px; 
+  height: auto;
+  margin-left: 7.5%;
+}
+
+header {
+  flex: 1;
+  min-width: 300px;
+  line-height: 0.4px;
+  letter-spacing: 1.px;
+  color: black;
+  padding-bottom: 20px;
+
+}
+
+
+ 
+.title {
+  
+  text-align: center;
+  flex: 3;
+}
+
+.intro{
+  text-align: center;
+  flex: 1;
+  border-bottom: 190px solid rgba(127, 135, 140, 0.366);
+  min-width: 180px;
+  padding: 1%;
+  font-size: 15px;
+  grid-row: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+
+a {
+  color: #000;
+}
+
+.left-side {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#contacts {
+  
+  background-repeat: no-repeat;
+  
+  line-height: 0.5;
+  width: 36%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#skills {
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#tools {
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+.experience {
+  border-left: 3px solid black;
+  line-height: 1.5;
+  font-size: 15px; 
+  color: black; 
+  padding: 4%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 3;
+}
+
+.education {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 4;
+  padding: 2%;
+}
+
+.education1 {
+  font-size: 15px; 
+  color: black; 
+}
+
+.education2 {
+  float: right;
+  width: 50%;
+  margin-top: -10%;
+  color: black;
+}
+
+#forms {
+  color: white;
+  border: black solid 3px;
+  padding: 2%;
+  background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 5;
+  padding: 2%;
+  border-radius: 12px 12px 12px 12px;
+}
+
+#submit {
+  background-color: rgba(162, 220, 237, 0.801);
+  color: black;
+}
+
+#headings {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+
+#headings1 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings2 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings3 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings4 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings5 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings6 {
+  font-size: 20px; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#details1 {
+  font-size: 15px;
+  color: black;
+}
+
+#details2 {
+  font-size: 15px;
+  color: black;
+}
+
+#details3 {
+  font-size: 15px;
+  color: black;
+}
+
+#details4 {
+  font-size: 15px;
+  color: black;
+}
+
+
