@@ -1,6 +1,9 @@
+
+
 .full-page {
   background-color: rgba(213, 225, 229, 0.516);
 }
+
 
 .grid-container {
 
@@ -214,8 +217,45 @@ a {
 }
 
 
-/*Mobile: 300px - 768px
-Tablet: 769px - 1024px
+
+/*Mobile*/
+@media only screen and (max-width: 425px){
+  .full-page {
+    background-color: palevioletred;
+  }
+
+  .grid-container {
+    display:list-item;
+    grid-gap: 40px;
+  }
+  
+  img {
+    border: 4px solid black;
+    width: 400px; 
+    height: auto;
+    margin-left: 7.5%;
+  }
+  
+  header {
+    flex: 1;
+    min-width: 425px;
+    line-height: 0.4px;
+    
+    color: black;
+    padding-bottom: 20px;
+  }
+
+  .title {
+    font-size: 7vw;
+    text-align: center;
+  }
+}
+
+
+
+
+/*Mobile: 300px - 768px*/
+/*Tablet: 769px - 1024px
 Desktop / Laptop: 1024px - 1215px*/
 
 /*/*code for mobile devices smaller than 600px*/
