@@ -58,8 +58,6 @@ header {
   grid-column-end: 3;
 }
 
-
-
 a {
   color: #000;
 }
@@ -227,6 +225,9 @@ a {
   .grid-container {
     display:list-item;
     grid-gap: 40px;
+    margin-left: 50px;
+    text-align: center;
+    min-width: 1400px;
   }
   
   img {
@@ -234,20 +235,56 @@ a {
     width: 400px; 
     height: auto;
     margin-left: 7.5%;
+
   }
   
   header {
     flex: 1;
     min-width: 425px;
     line-height: 0.4px;
-    
     color: black;
     padding-bottom: 20px;
+   
   }
 
   .title {
     font-size: 7vw;
     text-align: center;
+  }
+
+  .intro{
+    text-align: center;
+    flex: 1;
+    height: 240px;
+    border-bottom: 9px solid black;
+    min-width: 180px;
+    padding: 1%;
+    font-size: 7vw;
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: ;
+  }
+
+  .left-side {
+    margin-top: 40px;
+    background-color: rgba(200, 200, 200, 0.456);
+    border-radius: 12px 12px 12px 12px;
+    padding: 20px;
+    font-size: 7.5vw;
+    line-height: 12px;
+  }
+
+  .experience {
+    margin-top: 40px;
+    background-color: rgba(200, 200, 200, 0.456);
+    border-left: 3px solid black;
+    line-height: 1.5;
+    font-size: 7.5vw; 
+    color: black; 
+    padding: 4%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 3;
   }
 }
 
