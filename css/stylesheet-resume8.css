@@ -35,11 +35,8 @@ header {
   letter-spacing: 1px;
   color: black;
   padding-bottom: 20px;
-
 }
 
-
- 
 .title {
   font-size: 2vw;
   text-align: center;
@@ -70,6 +67,7 @@ a {
   grid-column-end: 2;
   font-size: 1.5vw;
 }
+
 .contacts {
   line-height: 0.5;
   margin-top: 20px;
@@ -212,7 +210,7 @@ a {
 
 
 
-/*Mobile*/
+/**********************************Mobile**************************************************/
 @media only screen and (max-width: 425px){
   .full-page {
     background-color: rgba(231, 232, 232, 0.121);
@@ -413,8 +411,200 @@ a {
   h3 {
     font-size: 8vw;
   }
-  
 }
+/**********************************Mobile Complete*********************************************/
+
+
+/**********************************Tablet**************************************************/
+@media only screen and (max-width: 769px){
+  .full-page {
+    background-color: rgb(241, 16, 16);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 500px 970px;
+    grid-gap: 20px;
+  }
+
+  img {
+    border: 3px solid black;
+    width: 280px; 
+    height: auto;
+    margin: auto;
+  }
+
+  header {
+    flex: 1;
+    min-width: 300px;
+    letter-spacing: 1px;
+    color: black;
+    padding-bottom: 20px;
+  }
+
+  .intro{
+    text-align: left;
+    flex: 1;
+    border-bottom: 4px solid black;
+    min-width: 180px;
+    padding: 10%;
+    font-size: 4vw;
+  }
+
+  .left-side {
+    background-color: rgba(200, 200, 200, 0.456);
+    border-radius: 12px 12px 12px 12px;
+    padding: 18px;
+  }
+  
+.contacts {
+  line-height: 0.5;
+  font-size: 3vw; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+.skills {
+  line-height: 0.9;
+  font-size: 3vw; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+.tools {
+  line-height: 0.8;
+  font-size: 3vw; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+.experience {
+  border-left: 3px solid black;
+  line-height: 1.5;
+  color: black; 
+  padding: 4%;
+  font-size: 3vw;
+}
+
+.education {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  padding: 2%;
+  font-size: 3vw;
+}
+
+.education1 {
+  font-size: 3vw; 
+  color: black; 
+}
+
+.education2 {
+  margin-top: -10%;
+  color: black;
+}
+
+#forms {
+  color: white;
+  font-size: 3vw;
+  border: black solid 3px;
+  background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+  border-radius: 12px 12px 12px 12px;
+}
+
+#submit {
+  background-color: rgba(162, 220, 237, 0.801);
+  color: black;
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+#headings {
+  font-size: 5vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+
+#headings1 {
+  font-size: 4vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings2 {
+  font-size: 4vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings3 {
+  font-size: 4vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings4 {
+  font-size: 4vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings5 {
+  font-size: 4vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#headings6 {
+  font-size: 4vw; 
+  color: rgba(58, 185, 221, 0.801); 
+  font-weight: bold;
+}
+
+#details1 {
+  font-size: 3vw;
+  color: black;
+}
+
+#details2 {
+  font-size: 3vw;
+  color: black;
+}
+
+#details3 {
+  font-size: 3vw;
+  color: black;
+}
+
+#details4 {
+  font-size: 3vw;
+  color: black;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
