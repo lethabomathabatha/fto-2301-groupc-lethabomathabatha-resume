@@ -70,21 +70,9 @@ a {
   grid-column-end: 2;
   font-size: 1.5vw;
 }
-#contacts {
-  background-repeat: no-repeat;
+.contacts {
   line-height: 0.5;
-  width: 36%;
   margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 15px; 
-  color: black; 
-  padding: 2%;
-  font-weight: lighter;
-}
-
-#skills {
-  line-height: 0.5;
-  width: 36%;
   margin-bottom: 20px;
   font-size: 2vw; 
   color: black; 
@@ -92,10 +80,18 @@ a {
   font-weight: lighter;
 }
 
-#tools {
+.skills {
   line-height: 0.5;
   width: 36%;
-  margin-bottom: 20px;
+  font-size: 2vw; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+.tools {
+  line-height: 0.5;
+  width: 36%;
   font-size: 15px; 
   color: black; 
   padding: 2%;
@@ -219,7 +215,7 @@ a {
 /*Mobile*/
 @media only screen and (max-width: 425px){
   .full-page {
-    background-color: palevioletred;
+    background-color: rgba(231, 232, 232, 0.121);
   }
 
   .grid-container {
@@ -234,8 +230,7 @@ a {
     border: 4px solid black;
     width: 400px; 
     height: auto;
-    margin-left: 7.5%;
-
+    margin:auto;
   }
   
   header {
@@ -250,42 +245,175 @@ a {
   .title {
     font-size: 7vw;
     text-align: center;
+    line-height: 50%;
   }
 
   .intro{
     text-align: center;
     flex: 1;
-    height: 240px;
-    border-bottom: 9px solid black;
+    height: 350px;
+    border-bottom: 5px solid black;
     min-width: 180px;
     padding: 1%;
-    font-size: 7vw;
-    grid-row: 1;
-    grid-column-start: 2;
-    grid-column-end: ;
+    font-size: 9vw;
   }
 
   .left-side {
     margin-top: 40px;
-    background-color: rgba(200, 200, 200, 0.456);
+    background-color: rgba(178, 184, 209, 0.336);
     border-radius: 12px 12px 12px 12px;
-    padding: 20px;
+    padding: 10px;
     font-size: 7.5vw;
-    line-height: 12px;
+    border-right: 3px solid black;
   }
 
+  .contacts {
+    line-height: 0.5;
+    font-size: 8.5vw; 
+    color: black; 
+    padding: 2%;
+    font-weight: lighter;
+  }
+
+  .skills {
+    line-height: 0.5;
+    font-size: 8.5vw; 
+    color: black; 
+    font-weight: lighter;
+    margin-left: 30%;
+    
+  }
+  
+  .tools {
+    line-height: 0.9;
+    font-size: 8.5vw; 
+    color: black; 
+    font-weight: lighter;
+    margin-left: 30%;
+  }
+  
   .experience {
     margin-top: 40px;
-    background-color: rgba(200, 200, 200, 0.456);
+    background-color: rgba(178, 184, 209, 0.336);
     border-left: 3px solid black;
-    line-height: 1.5;
-    font-size: 7.5vw; 
+    line-height: 1.4;
+    font-size: 8.5vw; 
     color: black; 
-    padding: 4%;
+    padding: 2%;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-end: 3;
   }
+  .education {
+    margin-top: 40px;
+    border-right: 4px solid black;
+    background-color: rgba(178, 184, 209, 0.336);
+    border-radius: 12px 12px 12px 12px;
+    padding: 2%;
+    font-size: 8.5vw;
+    text-align: left;
+  }
+  .education1 {
+    font-size: 8.5vw; 
+    color: black; 
+  }
+  
+  .education2 {
+    text-align: left;
+    margin-top: -220px;
+    color: black;
+  }
+
+  #forms {
+    margin-top: 40px;
+    font-size: 8.5vw;
+    color: white;
+    border: black solid 3px;
+    padding: 2%;
+    background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 5;
+    padding: 2%;
+    border-radius: 12px 12px 12px 12px;
+  }
+  
+  #submit { 
+    font-size: 8.5vw;
+    background-color: rgba(162, 220, 237, 0.801);
+    color: black;
+  }
+
+  #headings {
+    font-size: 9vw; 
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  
+  #headings1 {
+    font-size: 9vw; 
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  #headings2 {
+    font-size: 9vw; 
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  #headings3 {
+    font-size: 9vw; 
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  #headings4 {
+    font-size: 9vw; 
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  #headings5 {
+    font-size: 9vw;
+    text-align: center;
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  #headings6 {
+    font-size: 9vw; 
+    color: rgb(45, 202, 246); 
+    font-weight: bold;
+  }
+  
+  #details1 {
+    font-size: 8vw;
+    color: black;
+  }
+  
+  #details2 {
+    font-size: 8vw;
+    color: black;
+  }
+  
+  #details3 {
+    font-size: 8vw;
+    color: black;
+  }
+  
+  #details4 {
+    font-size: 8vw;
+    color: black;
+  }
+
+  h3 {
+    font-size: 8vw;
+  }
+  
 }
 
 
