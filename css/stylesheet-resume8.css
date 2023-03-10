@@ -211,9 +211,9 @@ a {
 
 
 /**********************************Mobile**************************************************/
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 426px){
   .full-page {
-    background-color: rgba(231, 232, 232, 0.121);
+    background-color: rgb(245, 8, 8);
   }
 
   .grid-container {
@@ -416,7 +416,7 @@ a {
 
 
 /**********************************Tablet**************************************************/
-@media only screen and (max-width: 769px){
+@media only screen and (min-width: 426px) and (max-width:768){
   .full-page {
     background-color: rgba(231, 232, 232, 0.121);
   }
@@ -595,11 +595,10 @@ h4 {
   color: black;
 }
 }
-/**********************************Tablet Complete*****************************************/
 
 
 /**********************************Laptop*************************************************/
-@media only screen and (max-width: 1440px){
+@media only screen and (min-width: 769px){
   .grid-container {
     display: grid;
     grid-template-columns: 500px 970px;
@@ -637,6 +636,7 @@ h4 {
   
 .intro{
   padding-top: 30%;
+  padding-left: 4.5%;
   text-align: left;
   flex: 1;
   border-bottom: 10px solid rgba(127, 135, 140, 0.366);
@@ -717,38 +717,38 @@ h4 {
 
 #headings {
   font-size: 2vw; 
-  color: rgba(58, 185, 221, 0.801);
+  color: rgb(48, 186, 224);
 }
 
 
 #headings1 {
   font-size: 1.8vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(48, 186, 224); 
 }
 
 #headings2 {
   font-size: 1.8vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(48, 186, 224); 
 }
 
 #headings3 {
   font-size: 1.8vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(48, 186, 224); 
 }
 
 #headings4 {
   font-size: 1.8vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(48, 186, 224); 
 }
 
 #headings5 {
   font-size: 1.8vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(48, 186, 224); 
 }
 
 #headings6 {
   font-size: 1.8vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(48, 186, 224); 
 }
 
 #details1 {
@@ -770,9 +770,9 @@ h4 {
   font-size: 1.5vw;
   color: black;
 }
-
-
 }
+/**********************************Laptop Complete******************************************/
+
 
 
 
