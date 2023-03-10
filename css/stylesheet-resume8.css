@@ -418,7 +418,7 @@ a {
 /**********************************Tablet**************************************************/
 @media only screen and (max-width: 769px){
   .full-page {
-    background-color: rgb(241, 16, 16);
+    background-color: rgba(231, 232, 232, 0.121);
   }
 
   .grid-container {
@@ -428,7 +428,7 @@ a {
   }
 
   img {
-    border: 3px solid black;
+    border: 4px solid black;
     width: 280px; 
     height: auto;
     margin: auto;
@@ -445,10 +445,11 @@ a {
   .intro{
     text-align: left;
     flex: 1;
-    border-bottom: 4px solid black;
+    border-bottom: 1px solid black;
     min-width: 180px;
-    padding: 10%;
-    font-size: 4vw;
+    padding-top: 40%;
+    padding-left: 4%;
+    font-size: 3vw;
   }
 
   .left-side {
@@ -481,11 +482,11 @@ a {
   font-weight: lighter;
 }
 .experience {
-  border-left: 3px solid black;
+  border-left: 1px solid black;
   line-height: 1.5;
   color: black; 
-  padding: 4%;
   font-size: 3vw;
+  padding-top: 3%;
 }
 
 .education {
@@ -520,14 +521,19 @@ a {
   background-color: rgba(162, 220, 237, 0.801);
   color: black;
   font-size: 3vw;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h3 {
   font-size: 3vw;
 }
 
+h4 {
+  font-size: 3vw;
+}
+
 #headings {
-  font-size: 5vw; 
+  font-size: 4vw; 
   color: rgba(58, 185, 221, 0.801); 
   font-weight: bold;
 }
@@ -588,7 +594,6 @@ h3 {
   font-size: 3vw;
   color: black;
 }
-
 
 }
 
