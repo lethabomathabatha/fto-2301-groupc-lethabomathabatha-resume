@@ -45,7 +45,7 @@ header {
 
 .intro{
   text-align: center;
-  flex: 1;
+  flex: 3;
   border-bottom: 190px solid rgba(127, 135, 140, 0.366);
   min-width: 180px;
   padding: 1%;
@@ -418,12 +418,12 @@ a {
 /**********************************Tablet**************************************************/
 @media only screen and   (min-width: 426px) and (max-width:768px) {
   .full-page {
-    background-color: rgb(5, 249, 58);
+    background-color: rgba(232, 236, 240, 0.59);
   }
 
   .grid-container {
     display: grid;
-    grid-template-columns: 500px 970px;
+    grid-template-columns: 500px 1000px;
     grid-gap: 20px;
   }
 
@@ -441,9 +441,9 @@ a {
 
   .intro{
     text-align: left;
-    border-bottom: 1px solid black;
+    border-bottom: 0px solid black;
     padding-left: 4%;
-    font-size: 6vw;
+    font-size: 5.6vw;
   }
 
   .left-side {
@@ -526,7 +526,8 @@ h1 {
 }
  
 h3 {
-  font-size: 3vw;
+  font-size: 6vw;
+  \
 }
 
 h4 {
