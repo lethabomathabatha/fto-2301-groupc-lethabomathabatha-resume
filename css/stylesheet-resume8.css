@@ -604,7 +604,7 @@ h4 {
 
 
 /**********************************Laptop*************************************************/
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 769px) and (max-width: 1440px){
   .grid-container {
     display: grid;
     grid-template-columns: 500px 1000px;
@@ -781,6 +781,169 @@ h4 {
 }
 /**********************************Laptop Complete******************************************/
 
+/**********************************4K*************************************************/
+@media only screen and (min-width: 1441px) {
+  .full-page {
+    background-color: rgba(240, 227, 230, 0.458);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 500px 1000px;
+    grid-gap: 20px;
+  }
+
+  img {
+    border: 8px solid rgba(153, 210, 210, 0.642);
+    width: 280px; 
+    height: auto;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 1.2vw;
+    flex: 1;
+    line-height: 45%;
+    border-bottom: 4px solid rgb(0, 0, 0);
+  }
+  
+.intro{
+  padding-left: 4.5%;
+  text-align: left;
+  flex: 1;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  font-size: 1.55vw;
+  resize: none;
+}
+
+
+.left-side {
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.contacts {
+  line-height: 0.5;
+  font-size: 1.2vw; 
+  padding: 2%;
+  padding-bottom: 0%;
+}
+
+.skills {
+  padding-top: 0%;
+  line-height: 0.7;
+  font-size: 1.2vw; 
+}
+
+.tools {
+  line-height: 0.7;
+  font-size: 1.2vw; 
+  color: black; 
+}
+
+
+.experience {
+  border-left: 0px solid rgba(0, 0, 0, 0.186);
+  line-height: 1.2;
+  font-size: 1.5vw; 
+  padding-top: 0%
+}
+
+.education {
+  background-color: rgba(200, 200, 200, 0.456);
+  padding-top: 0%;
+  line-height: 0.7;
+  font-size: 1.2vw; 
+}
+
+.education1 {
+  font-size: 1.2vw; 
+  color: black; 
+}
+
+.education2 {
+  margin-top: -6.5%;
+  color: black;
+}
+
+#forms {
+  color: white;
+  font-size: 1.2vw;
+  padding: 2%;
+  background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
+  padding-top: 0%;
+}
+
+#submit {
+  background-color: rgba(162, 220, 237, 0.801);
+  border-color: aliceblue;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2vw;
+}
+
+#headings {
+  font-size: 2.2vw; 
+  letter-spacing: 4px;
+  color: rgb(48, 186, 224);
+}
+
+
+#headings1 {
+  font-size: 1.8vw; 
+  color: rgb(48, 186, 224); 
+}
+
+#headings2 {
+  font-size: 1.8vw;
+  color: rgb(48, 186, 224); 
+}
+
+#headings3 {
+  font-size: 1.8vw; 
+  color: rgb(48, 186, 224); 
+}
+
+#headings4 {
+  font-size: 1.8vw;
+  color: rgb(48, 186, 224); 
+}
+
+#headings5 {
+  font-size: 1.8vw; 
+  color: rgb(48, 186, 224); 
+}
+
+#headings6 {
+  font-size: 1.8vw;
+  color: rgb(48, 186, 224); 
+}
+
+#details1 {
+  font-size: 1.2vw;
+}
+
+#details2 {
+  font-size: 1.2vw;
+}
+
+#details3 {
+  font-size: 1.2vw;
+}
+
+#details4 {
+  font-size: 1.2vw;
+}
+
+h3 {
+  font-size: 1.2vw;
+}
+
+h4 {
+  font-size: 1.1vw;
+}
+
+}
 
 
 
