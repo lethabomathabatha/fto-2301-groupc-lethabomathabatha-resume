@@ -594,14 +594,185 @@ h4 {
   font-size: 3vw;
   color: black;
 }
+}
+/**********************************Tablet Complete*****************************************/
+
+
+/**********************************Laptop*************************************************/
+@media only screen and (max-width: 1440px){
+  .grid-container {
+    display: grid;
+    grid-template-columns: 500px 970px;
+    grid-gap: 20px;
+  }
+  
+  .background {
+    background-image: url(/images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100;
+    height: 101vh;
+  }
+  img {
+    border: 3px solid black;
+    width: 250px; 
+    height: auto;
+    margin: auto;
+  }
+
+  header {
+    flex: 1;
+    min-width: 300px;
+    letter-spacing: 1px;
+    color: black;
+  }
+
+  .title {
+    font-size: 1.3vw;
+    text-align: center;
+    flex: 3;
+    line-height: 50%
+  }
+  
+.intro{
+  padding-top: 30%;
+  text-align: left;
+  flex: 1;
+  border-bottom: 10px solid rgba(127, 135, 140, 0.366);
+  font-size: 1.6vw;
+}
+
+.left-side {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  padding: 20px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.contacts {
+  line-height: 0.5;
+  font-size: 1.3vw; 
+  padding: 2%;
+ 
+}
+
+.skills {
+  line-height: 0.9;
+  font-size: 1.3vw; 
+  color: black;
+}
+
+.tools {
+  line-height: 0.9;
+  font-size: 1.3vw; 
+  color: black; 
+}
+
+.experience {
+  border-left: 3px solid black;
+  line-height: 1.5;
+  font-size: 1.3vw; 
+  color: black; 
+  padding-top: 0%;
+}
+
+.education {
+  background-color: rgba(200, 200, 200, 0.456);
+  border-radius: 12px 12px 12px 12px;
+  padding: 2%;
+  padding-top: 0%;
+  line-height: 1;
+  font-size: 1.3vw; 
 
 }
 
+.education1 {
+  font-size: 1.3vw; 
+  color: black; 
+}
+
+.education2 {
+
+  margin-top: -7.5%;
+  color: black;
+}
+
+#forms {
+  color: white;
+  font-size: 1.4vw;
+  padding: 2%;
+  background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
+  padding-top: 0%;
+}
+
+#submit {
+  background-color: rgba(162, 220, 237, 0.801);
+  border-color: aliceblue;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3vw;
+}
+
+#headings {
+  font-size: 2vw; 
+  color: rgba(58, 185, 221, 0.801);
+}
 
 
+#headings1 {
+  font-size: 1.8vw; 
+  color: rgba(58, 185, 221, 0.801); 
+}
+
+#headings2 {
+  font-size: 1.8vw; 
+  color: rgba(58, 185, 221, 0.801); 
+}
+
+#headings3 {
+  font-size: 1.8vw; 
+  color: rgba(58, 185, 221, 0.801); 
+}
+
+#headings4 {
+  font-size: 1.8vw; 
+  color: rgba(58, 185, 221, 0.801); 
+}
+
+#headings5 {
+  font-size: 1.8vw; 
+  color: rgba(58, 185, 221, 0.801); 
+}
+
+#headings6 {
+  font-size: 1.8vw; 
+  color: rgba(58, 185, 221, 0.801); 
+}
+
+#details1 {
+  font-size: 1.5vw;
+  color: black;
+}
+
+#details2 {
+  font-size: 1.5vw;
+  color: black;
+}
+
+#details3 {
+  font-size: 1.5vw;
+  color: black;
+}
+
+#details4 {
+  font-size: 1.5vw;
+  color: black;
+}
 
 
-
+}
 
 
 
