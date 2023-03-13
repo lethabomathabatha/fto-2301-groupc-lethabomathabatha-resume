@@ -219,7 +219,7 @@ a {
   .grid-container {
     display:list-item;
     grid-gap: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
     text-align: center;
     min-width: 370%;
   }
@@ -467,8 +467,8 @@ a {
   }
 
   img {
-    border: 4px solid black;
-    width: 350px; 
+    border: 8px solid black;
+    width: 400px; 
     height: auto;
     margin: auto;
   }
@@ -482,45 +482,52 @@ a {
     text-align: left;
     border-bottom: 0px solid black;
     padding-left: 4%;
-    font-size: 5.6vw;
+    font-size: 7vw;
+  }
+
+  .title {
+    font-size: 15.5vw;
+    text-align: center;
+    line-height: 100px;
   }
 
   .left-side {
     background-color: rgba(200, 200, 200, 0.456);
     border-radius: 12px 12px 12px 12px;
-  
   }
   
 .contacts {
-  line-height: 0.5;
-  font-size: 4.2vw; 
+  line-height: 0.7;
+  font-size: max(5vw); 
+  font-size: min(7.9vw);
   color: black; 
   padding: 2%;
-  
   font-weight: lighter;
+  word-wrap: break-word;
 }
 
 .skills {
-  line-height: 0.9;
-  font-size: 5vw; 
+  line-height: 0.7;
+  font-size: 7.9vw; 
   color: black; 
   padding: 2%;
   padding-right: 0%;
   font-weight: lighter;
+  width: 100%;
 }
 
 .tools {
-  line-height: 0.8;
-  font-size: 5vw; 
+  line-height: 0.7;
+  font-size: 7.9vw; 
   color: black; 
   padding: 2%;
   font-weight: lighter;
+  width: 100%;
 }
 .experience {
   border-left: 1px solid black;
   line-height: 1.2;
-  color: black; 
-  font-size: 6vw;
+  font-size: 7.9vw;
   padding-top: 3%;
 }
 
@@ -528,22 +535,27 @@ a {
   background-color: rgba(200, 200, 200, 0.456);
   border-radius: 12px 12px 12px 12px;
   padding: 2%;
-  font-size: 5vw;
+  font-size: 7.9vw;
+  min-height: 400px;
 }
 
 .education1 {
-  font-size: 5vw; 
+  font-size: 7.9vw; 
   color: black; 
+  line-height: 100px;
+  
 }
 
 .education2 {
-  margin-top: -15%;
+  margin-top: -10%;
   color: black;
+  width: 100%;
+  line-height: 100px;
 }
 
 #forms {
   color: white;
-  font-size: 5vw;
+  font-size: 7.9vw;
   border: black solid 3px;
   background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
   background-repeat: no-repeat;
@@ -555,12 +567,12 @@ a {
 #submit {
   background-color: rgba(162, 220, 237, 0.801);
   color: black;
-  font-size: 5vw;
+  font-size: 7.9vw;
   font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
- font-size: 7vw;
+ font-size: 9vw;
  line-height: 50%;
 }
  
@@ -570,74 +582,109 @@ h3 {
 }
 
 h4 {
-  font-size: 5vw;
-  line-height: 0%;
+  line-height: 100%;
 }
 
 
 
 #headings {
-  color: rgba(58, 185, 221, 0.801); 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 
 #headings1 {
-  font-size: 7vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  font-size: 10vw; 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
 }
 
 #headings2 {
-  font-size: 7vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  font-size: 10vw; 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
 }
 
 #headings3 {
-  font-size: 7vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  font-size: 10vw; 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
 }
 
 #headings4 {
-  font-size: 7vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  font-size: 10vw; 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
 }
 
 #headings5 {
-  font-size: 7vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  font-size: 10vw; 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
 }
 
 #headings6 {
-  font-size: 7vw; 
-  color: rgba(58, 185, 221, 0.801); 
+  font-size: 10vw; 
+  color: rgb(15, 127, 158); 
   font-weight: bold;
 }
 
 #details1 {
-  font-size: 5vw;
+  font-size: 8.9vw;
   color: black;
 }
 
 #details2 {
-  font-size: 5vw;
+  font-size: 8.9vw;
   color: black;
 }
 
 #details3 {
-  font-size: 5vw;
+  font-size: 8.9vw;
   color: black;
 }
 
 #details4 {
-  font-size: 5vw;
+  font-size: 8.9vw;
   color: black;
 }
+
+h4 {
+  font-size: 8.9vw;
+  margin-bottom: -4%;
+  margin-top: 9%;
+}
+
+h5 {
+  font-size: 8.9vw;
+  margin-bottom: -5%;
+}
+
+::placeholder {
+  font-size: 6vw;
+}
+
+#msg {
+  height: 70vh;
+  width: 100%;
+}
+
+#email {
+  width: 100%;
+  height: 9vh;
+}
+
+input[type="radio"][name="subject"] {
+  display: block;
+  
+}
+
+input[type=radio] {
+  width: 100%;
+  height: 5vh;
+}
+
 }
 /******************************Tablet Complete*******************************************/
 
