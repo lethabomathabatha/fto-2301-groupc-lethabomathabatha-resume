@@ -222,12 +222,10 @@ a {
     margin-left: 50px;
     text-align: center;
     min-width: 370%;
-   
-    
   }
   
   img {
-    border: 4px solid black;
+    border: 13px solid black;
     width: 650px; 
     height: auto;
     margin:auto;
@@ -244,7 +242,7 @@ a {
 
   .title {
     min-width: 320px;
-    font-size: 10.5vw;
+    font-size: 15.5vw;
     text-align: center;
     line-height: 50%;
     justify-self: center;
@@ -252,11 +250,9 @@ a {
 
   .intro{
     flex: 1;
-    
     border-bottom: 5px solid black;
-    
     padding: 1%;
-    font-size: 14vw;
+    font-size: 18vw;
     text-align: center;
     flex-wrap: wrap;
   
@@ -272,27 +268,24 @@ a {
 
   .contacts {
     line-height: 0.5;
-    font-size: 13.5vw; 
+    font-size: 18vw; 
     color: black; 
     padding: 2%;
-    font-weight: lighter;
   }
 
   .skills {
-    line-height: 0.6;
-    font-size: 12.5vw; 
+    line-height: 0.8;
+    font-size: 18vw; 
     color: black; 
-    font-weight: lighter;
-    margin-left: 30%;
     
+    width: 100%;
   }
   
   .tools {
     line-height: 0.9;
-    font-size: 12.5vw; 
-    color: black; 
-    font-weight: lighter;
-    margin-left: 30%;
+    font-size: 18vw; 
+    color: black;
+    width: 100%;
   }
   
   .experience {
@@ -300,7 +293,7 @@ a {
     background-color: rgba(178, 184, 209, 0.336);
     border-left: 3px solid black;
     line-height: 1.4;
-    font-size: 12.5vw; 
+    font-size: 19vw; 
     color: black; 
     padding: 2%;
     grid-column-start: 2;
@@ -313,23 +306,28 @@ a {
     background-color: rgba(178, 184, 209, 0.336);
     border-radius: 12px 12px 12px 12px;
     padding: 2%;
-    font-size: 8.5vw;
+    font-size: 19vw;
     text-align: left;
+    height: 900px;
   }
+
   .education1 {
-    font-size: 8.5vw; 
+    font-size: 19vw; 
     color: black; 
   }
   
   .education2 {
     text-align: left;
-    margin-top: -235px;
+    float: none;
+    margin-top: -30px;
     color: black;
+    width: 100%;
   }
 
   #forms {
     margin-top: 40px;
-    font-size: 10.5vw;
+    font-size: 19vw;
+    letter-spacing: 5px;
     color: white;
     border: black solid 3px;
     padding: 2%;
@@ -342,81 +340,115 @@ a {
   }
   
   #submit { 
-    font-size: 9.5vw;
+    margin: 5%;
+    font-size: 18vw;
     background-color: rgba(162, 220, 237, 0.801);
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
   }
 
   #headings {
-    font-size: 14vw; 
-    color: rgb(45, 202, 246); 
+    font-size: 18vw; 
+    color: rgb(46, 167, 200); 
     font-weight: bold;
   }
   
   
   #headings1 {
-    font-size: 14vw; 
-    color: rgb(45, 202, 246); 
+    font-size: 21vw; 
+    color: rgb(46, 167, 200); 
     font-weight: bold;
   }
   
   #headings2 {
-    font-size: 14vw; 
-    color: rgb(45, 202, 246); 
+    font-size: 21vw; 
+    color: rgb(46, 167, 200); 
     font-weight: bold;
   }
   
   #headings3 {
-    font-size: 14vw; 
-    color: rgb(45, 202, 246); 
+    font-size: 21vw; 
+    color: rgb(46, 167, 200); 
     font-weight: bold;
   }
   
   #headings4 {
-    font-size: 14vw; 
-    color: rgb(45, 202, 246); 
+    font-size: 21vw; 
+    color: rgb(46, 167, 200); 
     font-weight: bold;
   }
   
   #headings5 {
-    font-size: 14vw;
+    font-size: 21vw;
     text-align: center;
-    color: rgb(45, 202, 246); 
+    color: rgb(46, 167, 200); 
     font-weight: bold;
   }
   
   #headings6 {
-    font-size: 14vw; 
-    color: rgb(45, 202, 246); 
+    font-size: 21vw; 
+    color: rgb(183, 218, 228); 
     font-weight: bold;
   }
   
   #details1 {
-    font-size: 12vw;
+    font-size: 19vw;
     color: black;
   }
   
   #details2 {
-    font-size: 12vw;
+    font-size: 19vw;
     color: black;
   }
   
   #details3 {
-    font-size: 12vw;
+    font-size: 19vw;
     color: black;
   }
   
   #details4 {
-    font-size: 12vw;
+    font-size: 19vw;
     color: black;
   }
 
   h3 {
-    font-size: 12vw;
+    font-size: 19vw;
   }
 
   h4 {
-    font-size: 10vw ;
+    font-size: 20vw;
+  }
+
+  h5 {
+    font-size: 18vw;
+    margin-top: -10%;
+    margin-bottom: -3%;
+    color: rgb(21, 128, 158);
+  }
+
+  ::placeholder {
+    font-size: 15vw;
+  }
+
+  #msg {
+    height: 70vh;
+    width: 300vw;
+  }
+
+  #email {
+    width: 200vw;
+    height: 9vh;
+  }
+
+  input[type="radio"][name="subject"] {
+    display: block;
+    
+  }
+
+  input[type=radio] {
+    width: 100%;
+    height: 5vh;
   }
 }
 /**********************************Mobile Complete*********************************************/
