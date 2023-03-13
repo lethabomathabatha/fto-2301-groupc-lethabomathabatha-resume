@@ -221,39 +221,45 @@ a {
     grid-gap: 40px;
     margin-left: 50px;
     text-align: center;
-    min-width: 1400px;
+    min-width: 370%;
+   
+    
   }
   
   img {
     border: 4px solid black;
-    width: 500px; 
+    width: 650px; 
     height: auto;
     margin:auto;
   }
   
   header {
     flex: 1;
-    min-width: 425px;
+    min-width: 320px;
     line-height: 0.4px;
     color: black;
     padding-bottom: 20px;
-   
+    justify-self: center;
   }
 
   .title {
-    font-size: 8.5vw;
+    min-width: 320px;
+    font-size: 10.5vw;
     text-align: center;
     line-height: 50%;
+    justify-self: center;
   }
 
   .intro{
-    text-align: center;
     flex: 1;
-    height: 750px;
+    
     border-bottom: 5px solid black;
-    min-width: 180px;
+    
     padding: 1%;
-    font-size: 13vw;
+    font-size: 14vw;
+    text-align: center;
+    flex-wrap: wrap;
+  
   }
 
   .left-side {
@@ -261,13 +267,12 @@ a {
     background-color: rgba(178, 184, 209, 0.336);
     border-radius: 12px 12px 12px 12px;
     padding: 10px;
-    font-size: 10.5vw;
     border-right: 3px solid black;
   }
 
   .contacts {
     line-height: 0.5;
-    font-size: 12.5vw; 
+    font-size: 13.5vw; 
     color: black; 
     padding: 2%;
     font-weight: lighter;
@@ -331,11 +336,9 @@ a {
     background-image:url(https://media.istockphoto.com/id/1316403377/photo/high-quality-marble-texture.jpg?s=170667a&w=0&k=20&c=k38SrVIWCJDgD6Rkm0xuMRd9cTTB2Oy_k5znc4-W3Uc=);  
     background-size: cover;
     background-repeat: no-repeat;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-end: 5;
+    
     padding: 2%;
-    border-radius: 12px 12px 12px 12px;
+   
   }
   
   #submit { 
@@ -640,7 +643,7 @@ h4 {
   
 .intro{
   padding-top: 23%;
-  padding-left: 4.5%;
+  padding-left: 8.5%;
   text-align: left;
   flex: 1;
   border-bottom: 4px solid rgba(0, 0, 0, 0.144);
